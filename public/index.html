@@ -22,7 +22,7 @@
       You need to enable JavaScript to run this app.
     </noscript>
     <div id="root"></div>
-    <audio src="vapor.mp3" loop autoplay/>
+    <audio src="vapor.mp3" id="music" loop autoplay/>
 
     </audio>
     <!--
@@ -38,6 +38,10 @@
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
+    <script>
+        var vid = document.getElementById("music");
+        vid.volume = 0.2;
+    </script>
 </body>
 
 <style media="screen">
